@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">ChatApp</string>
+    <string name="verify_code_icon" translatable="false">******</string>
+    <string name="enter_verification_code_sent_to">Enter verification code sent to\n+249906860345</string>
+    <string name="verification_code">VERIFICATION CODE</string>
+    <string name="verification_code_hint" translatable="false">######</string>
+    <string name="next">Next</string>
+    <string name="_120s_remaining">120s remaining</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="send_sms_hint_msg">We will send an SMS message to verify your number.</string>
+    <string name="name">Name</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="send_code">SEND CODE</string>
+    <string name="cc" translatable="false">###</string>
+</resources>

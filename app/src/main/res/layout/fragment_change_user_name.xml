@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/change_user_name_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/list_item_spacing_half"
+    android:paddingBottom="@dimen/list_item_spacing_half"
+    tools:context=".ChangeUserNameFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_change_user_name_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:boxBackgroundColor="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_change_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/btn_change_user_name_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="SAVE"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/btn_change_user_name_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="CANCEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_change_user_name_save" />
+</androidx.constraintlayout.widget.ConstraintLayout>

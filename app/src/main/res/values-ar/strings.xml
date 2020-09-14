@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_verification_code_sent_to">ادخل رمز التحقق الذي تم ارساله الى</string>
+    <string name="verification_code">رمز التحقق</string>
+    <string name="next">التالي</string>
+    <string name="_120s_remaining">تبقى 120ث</string>
+    <string name="welcome_to">مرحباً في</string>
+    <string name="send_sms_hint_msg">سنقوم بإرسال رسالة (اس ام اس) للتحقق من رقم هاتفك.</string>
+    <string name="name">الأسم</string>
+    <string name="phone_no">رقم الهاتف</string>
+    <string name="send_code">ارسال رمز التحقق</string>
+</resources>
